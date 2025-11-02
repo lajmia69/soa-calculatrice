@@ -29,7 +29,6 @@ public class ClientCalculatrice {
             
             while (true) {
                 try {
-                    // Demander le premier nombre
                     System.out.print("Entrez le premier nombre (ou 'stop' pour quitter): ");
                     String input1 = scanner.nextLine().trim();
                     
@@ -40,7 +39,6 @@ public class ClientCalculatrice {
                     
                     double a = Double.parseDouble(input1);
                     
-                    // Demander l'opération
                     System.out.print("Entrez l'opération (+, -, *, /): ");
                     String operation = scanner.nextLine().trim();
                     
@@ -49,7 +47,6 @@ public class ClientCalculatrice {
                         break;
                     }
                     
-                    // Demander le deuxième nombre
                     System.out.print("Entrez le deuxième nombre: ");
                     String input2 = scanner.nextLine().trim();
                     
@@ -60,7 +57,6 @@ public class ClientCalculatrice {
                     
                     double b = Double.parseDouble(input2);
                     
-                    // Effectuer l'opération
                     double resultat = 0;
                     boolean operationValide = true;
                     
